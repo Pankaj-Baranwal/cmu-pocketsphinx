@@ -1,70 +1,52 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package pocketsphinx
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-1.0.2 (2017-12-19)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package cmu_pocketsphinx
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1.0.3 (2017-12-19)
 ------------------
-* Preparing for release
-* Modified package name to follow recommendations
+* Preparing for release part
 * Merge branch 'kinetic-devel' of https://github.com/Pankaj-Baranwal/cmu-pocketsphinx into kinetic-devel
 * Merge branch 'lunar-devel' of https://github.com/Pankaj-Baranwal/cmu-pocketsphinx into lunar-devel
 * Updating contributor emailID
-* Update README.md
-* Merge pull request `#1 <https://github.com/Pankaj-Baranwal/cmu_pocketsphinx/issues/1>`_ from Pankaj-Baranwal/add-license-1
-  Create LICENSE
-* Create LICENSE
-* Update README.md
-* Update README.md
-* Adding Mike as the original author
+* Updated README.md
 * Syncing repo with Pankaj-Baranwal/pocketsphinx
-* add install note
-* update readme
-* Contributors: Pankaj Baranwal
-
-
-1.0.1 (2017-09-13)
-------------------
-* Following PEP8 guidelines
-* Adding backward compatibility
-* New model for speaker verification
-* Examples
-* keyword spotting mode and grammar mode dict and kwlist
-* speaker verification based continous mode
-* simple audio recorder
-* continuous mode working
-* kws threshold automation working.
-* Better false alarm correction
-* Background recording using rec accomplished. kws search working!
-* Integrated kws
-* Contributors: Pankaj Baranwal
-
-1.0.0 (2017-06-13)
-------------------
-* revamped package with latest ROS recommendations and pocketsphinx features
-* removed external dependencies
-* following PEP-8 style guidelines
-* added proper documentation as wiki and comments
-* Contributors: Pankaj Baranwal
+* Adding Mike as the original author
+* Contributors: Michael Ferguson, Pankaj Baranwal
 
 0.4.0 (2014-06-03)
 ------------------
+* update changelog
 * add ~source parameter, for setting things like 'alsasrc'
 * add depend on python-gst
 * Contributors: Michael Ferguson
 
 0.3.0 (2013-11-27)
 ------------------
-* Convert print statements to rosinfo/rosdebugs
-* Change language model at runtime + specify audio source
+* "0.3.0"
+* update changelog
+* convert print statements to rosinfo/rosdebugs
+* Merge pull request `#7 <https://github.com/Pankaj-Baranwal/cmu_pocketsphinx/issues/7>`_ from jdddog/hydro-devel
+  Change language model at runtime + specify audio source
+* * Now changing the language model at runtime updates what language model is being used by the recognizer because the lm/dic parameters are reloaded when the ~start service is called.
+  * Specify a microphone name to connect to. This is useful when you want to have multiple audio sources each processed by independent recognizers.
+* Contributors: Michael Ferguson, jdddog
 
 0.2.2 (2013-09-29)
 ------------------
-* Add changelog
+* add changelog
+* Contributors: Michael Ferguson
 
 0.2.1 (2013-09-21)
 ------------------
-* Fix install rules so that python scripts are executable
+* fix `#5 <https://github.com/Pankaj-Baranwal/cmu_pocketsphinx/issues/5>`_
+* Contributors: Mike Ferguson
 
 0.2.0 (2013-07-12)
 ------------------
-* Added support for grammar fsg files
-* First catkinized release
+* fix `#2 <https://github.com/Pankaj-Baranwal/cmu_pocketsphinx/issues/2>`_, clean up some formatting
+* Merge pull request `#1 <https://github.com/Pankaj-Baranwal/cmu_pocketsphinx/issues/1>`_ from wrousseau/groovy-devel
+  Added support to grammar fsg files
+* Added support to grammar fsg files
+* fix catkinization
+* starting to muck around with catkin
+* Contributors: Michael Ferguson, Woody Rousseau
