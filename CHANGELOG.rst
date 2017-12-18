@@ -1,6 +1,11 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Changelog for package pocketsphinx
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1.0.2 (2017-12-19)
+------------------
+* Preparing for release
+* Modified package name to follow recommendations
+* Contributors: Pankaj Baranwal
 
 1.0.1 (2017-09-13)
 ------------------
@@ -25,6 +30,23 @@ Changelog for package pocketsphinx
 * following PEP-8 style guidelines
 * added proper documentation as wiki and comments
 * Contributors: Pankaj Baranwal
+
+Forthcoming
+-----------
+* Merge branch 'kinetic-devel' of https://github.com/Pankaj-Baranwal/cmu-pocketsphinx into kinetic-devel
+* Merge branch 'lunar-devel' of https://github.com/Pankaj-Baranwal/cmu-pocketsphinx into lunar-devel
+* Updating contributor emailID
+* Update README.md
+* Merge pull request `#1 <https://github.com/Pankaj-Baranwal/cmu_pocketsphinx/issues/1>`_ from Pankaj-Baranwal/add-license-1
+  Create LICENSE
+* Create LICENSE
+* Update README.md
+* Update README.md
+* Adding Mike as the original author
+* Syncing repo with Pankaj-Baranwal/pocketsphinx
+* add install note
+* update readme
+* Contributors: Michael Ferguson, Pankaj, Pankaj Baranwal
 
 0.4.0 (2014-06-03)
 ------------------
