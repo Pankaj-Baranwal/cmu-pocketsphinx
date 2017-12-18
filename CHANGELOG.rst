@@ -26,6 +26,16 @@ Changelog for package pocketsphinx
 * added proper documentation as wiki and comments
 * Contributors: Pankaj Baranwal
 
+Forthcoming
+-----------
+* Merge branch 'lunar-devel' of https://github.com/Pankaj-Baranwal/cmu-pocketsphinx into lunar-devel
+* Updating contributor emailID
+* Create LICENSE
+* Update README.md
+* Adding Mike as the original author
+* Syncing repo with Pankaj-Baranwal/pocketsphinx
+* Contributors: Michael Ferguson, Pankaj Baranwal
+
 0.4.0 (2014-06-03)
 ------------------
 * add ~source parameter, for setting things like 'alsasrc'
