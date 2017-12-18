@@ -1,6 +1,6 @@
 <?xml version="2.0"?>
 <package format="2">
-  <name>cmu-pocketsphinx</name>
+  <name>cmu_pocketsphinx</name>
   <version>1.0.2</version>
   <description>
     ROS package for pocketsphinx speech recognizer
